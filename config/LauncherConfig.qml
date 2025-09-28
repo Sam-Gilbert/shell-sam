@@ -123,7 +123,7 @@ JsonObject {
             icon: "lock",
             description: "Lock the current session",
             command: ["loginctl", "lock-session"],
-            enabled: true,
+            enabled: false,
             dangerous: false
         },
         {
