@@ -118,14 +118,14 @@ JsonObject {
             enabled: true,
             dangerous: true
         },
-        {
-            name: "Lock",
-            icon: "lock",
-            description: "Lock the current session",
-            command: ["loginctl", "lock-session"],
-            enabled: false,
-            dangerous: false
-        },
+        //{
+        //    name: "Lock",
+        //    icon: "lock",
+        //    description: "Lock the current session",
+        //    command: ["loginctl", "lock-session"],
+        //    enabled: false,
+        //    dangerous: false
+        //},
         {
             name: "Sleep",
             icon: "bedtime",
